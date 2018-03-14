@@ -5,9 +5,9 @@
 // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 import XCTest
-@testable import Example
+@testable import BuilderExample
 
-class ExampleTests: XCTestCase {
+class BuilderExampleTests: XCTestCase {
     func testExample() {
       print("test goes here")
     }

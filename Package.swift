@@ -30,7 +30,7 @@ let package = Package(
               name: "Configure",
             dependencies: ["BuilderConfiguration", "BuilderToolExample"]),
           .testTarget(
-              name: "ExampleTests",
+              name: "BuilderExampleTests",
               dependencies: ["BuilderExample"]),
     ]
 )

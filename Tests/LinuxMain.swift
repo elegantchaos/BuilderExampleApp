@@ -5,8 +5,8 @@
 // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 import XCTest
-@testable import ExampleTests
+@testable import BuilderExampleTests
 
 XCTMain([
-    testCase(ExampleTests.allTests),
+    testCase(BuilderExampleTests.allTests),
 ])
