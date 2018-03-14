@@ -30,15 +30,15 @@ let configuration = Configuration(
     actions: [
         .action(name:"build", phases:[
             .toolPhase(name:"Preparing", tool: "BuilderToolExample"),
-            .buildPhase(name:"Building", target:"Example"),
+            .buildPhase(name:"Building", target:"BuilderExample"),
             .toolPhase(name:"Packaging", tool: "BuilderToolExample", arguments:["blah", "waffle"]),
             ]),
         .action(name:"test", phases:[
-            .testPhase(name:"Testing", target:"Example"),
+            .testPhase(name:"Testing", target:"BuilderExample"),
             ]),
         .action(name:"run", phases:[
             .actionPhase(name:"Building", action: "build"),
-            .toolPhase(name:"Running", tool: "run", arguments:["Example"]),
+            .toolPhase(name:"Running", tool: "run", arguments:["BuilderExample"]),
             ]),
     ]
 )
