@@ -12,8 +12,8 @@ What this command does is to ask the Swift Package Manager to build and run the 
 
 The `builder` product is supplied by the Builder project, which is listed as a dependency in `Package.swift`.
 
-When `builder` runs, it builds the `Configure` target, then looks up the `run` action in it.
+When `builder` runs, it builds and runs the `Configure` target, which gives it a configuration.
 
-This action tells Builder what to do to build and run the example product.
+It then looks up the `run` action in the configuration. This tells Builder what to do to build and run the example product.
 
 The nice thing about all of this is that the build relies on three external dependencies (Builder itself, BuilderConfiguration, and an example tool BuilderToolExample), but you don't have to do any preliminary fetching or installing of things. As long as you have swift installed, you're good to go.
