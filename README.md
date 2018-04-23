@@ -1,6 +1,6 @@
-# BuilderExample
+# BuilderExampleApp
 
-*(Note: work in progress - not currently working!)*
+*Note: work in progress - not currently working!*
 
 This is an example application built with [Builder](https://github.com/elegantchaos/Builder), which is a build tool layered on top of the Swift Package Manager.
 
