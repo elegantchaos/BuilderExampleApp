@@ -29,16 +29,15 @@ let configuration = Configuration(
     settings: settings,
     actions: [
         .action(name:"build", phases:[
-            .toolPhase(name:"Preparing", tool: "BuilderToolExample"),
-            .buildPhase(name:"Building", target:"BuilderExample"),
-            .toolPhase(name:"Packaging", tool: "BuilderToolExample", arguments:["blah", "waffle"]),
+            .buildPhase(name:"Building", target:"BuilderExampleApp"),
+            .toolPhase(name:"Bundling", tool: "BuilderBundler", arguments:["BuilderExampleApp"]),
             ]),
         .action(name:"test", phases:[
-            .testPhase(name:"Testing", target:"BuilderExample"),
+            .testPhase(name:"Testing", target:"BuilderExampleApp"),
             ]),
         .action(name:"run", phases:[
             .actionPhase(name:"Building", action: "build"),
-            .toolPhase(name:"Running", tool: "run", arguments:["BuilderExample"]),
+            .toolPhase(name:"Running", tool: "run", arguments:["BuilderExampleApp"]),
             ]),
     ]
 )

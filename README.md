@@ -1,6 +1,10 @@
 # BuilderExample
 
-This is an example project for [Builder](https://github.com/elegantchaos/Builder), which is a build tool layered on top of the Swift Package Manager.
+*(Note: work in progress - not currently working!)*
+
+This is an example application built with [Builder](https://github.com/elegantchaos/Builder), which is a build tool layered on top of the Swift Package Manager.
+
+This application will eventually use the BuilderBundler tool to create its app bundle.
 
 To build this example:
 

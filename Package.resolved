@@ -20,15 +20,6 @@
         }
       },
       {
-        "package": "BuilderToolExample",
-        "repositoryURL": "https://github.com/elegantchaos/BuilderToolExample.git",
-        "state": {
-          "branch": null,
-          "revision": "6769e0a4b2ae524741ab70290e48f0dee2ae2c81",
-          "version": "1.0.6"
-        }
-      },
-      {
         "package": "Docopt",
         "repositoryURL": "https://github.com/elegantchaos/docopt.swift",
         "state": {
@@ -39,11 +30,11 @@
       },
       {
         "package": "Logger",
-        "repositoryURL": "https://github.com/elegantchaos/Logger.git",
+        "repositoryURL": "https://github.com/elegantchaos/Logger",
         "state": {
           "branch": null,
-          "revision": "2207e5b2a1022afd0569cc3a925d6b173aaa9260",
-          "version": "1.0.7"
+          "revision": "1b0851311c0546e3c0272514508359317b812a8d",
+          "version": "1.0.8"
         }
       }
     ]

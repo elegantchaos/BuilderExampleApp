@@ -4,33 +4,29 @@
 import PackageDescription
 
 let package = Package(
-    name: "BuilderExample",
+    name: "BuilderExampleApp",
     products: [
         .executable(
-            name: "BuilderExample",
-            targets: ["BuilderExample"]),
+            name: "BuilderExampleApp",
+            targets: ["BuilderExampleApp"]),
     ],
     dependencies: [
-      // example tool we're going to use in the build
-      .package(url: "https://github.com/elegantchaos/BuilderToolExample.git", from: "1.0.6"),
-
-      // support library we're going to use in the configuration target
-      .package(url: "https://github.com/elegantchaos/BuilderConfiguration.git", from: "1.1.2"),
-
-      // builder itself
+      // Builder & associated tools
       .package(url: "https://github.com/elegantchaos/Builder.git", from: "1.0.3"),
+      .package(url: "https://github.com/elegantchaos/BuilderBundler.git", from: "1.0.0"),
+      .package(url: "https://github.com/elegantchaos/BuilderConfiguration.git", from: "1.1.2"),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
-            name: "BuilderExample",
+            name: "BuilderExampleApp",
             dependencies: []),
           .target(
               name: "Configure",
-            dependencies: ["BuilderConfiguration", "BuilderToolExample"]),
+            dependencies: ["BuilderConfiguration", "BuilderBundler"]),
           .testTarget(
               name: "BuilderExampleTests",
-              dependencies: ["BuilderExample"]),
+              dependencies: ["BuilderExampleApp"]),
     ]
 )
