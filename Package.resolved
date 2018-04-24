@@ -11,6 +11,15 @@
         }
       },
       {
+        "package": "BuilderBundler",
+        "repositoryURL": "https://github.com/elegantchaos/BuilderBundler.git",
+        "state": {
+          "branch": null,
+          "revision": "2f5dee00c72ba1e9322a500d9ca87cde890fbe36",
+          "version": "1.0.1"
+        }
+      },
+      {
         "package": "BuilderConfiguration",
         "repositoryURL": "https://github.com/elegantchaos/BuilderConfiguration.git",
         "state": {

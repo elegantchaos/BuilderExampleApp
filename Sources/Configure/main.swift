@@ -30,7 +30,7 @@ let configuration = Configuration(
     actions: [
         .action(name:"build", phases:[
             .buildPhase(name:"Building", target:"BuilderExampleApp"),
-            .toolPhase(name:"Bundling", tool: "BuilderBundler", arguments:["BuilderExampleApp"]),
+            .toolPhase(name:"Bundling", tool: "BuilderBundler", arguments:["BuilderExampleApp", "x86_64-apple-macosx10.10/debug"]),
             ]),
         .action(name:"test", phases:[
             .testPhase(name:"Testing", target:"BuilderExampleApp"),
