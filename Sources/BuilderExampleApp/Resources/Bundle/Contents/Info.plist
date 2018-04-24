@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>17E199</string>
+	<string>16G1212</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
-	<string>Test</string>
+	<string>BuilderExampleApp</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.elegantchaos.Test</string>
+	<string>com.elegantchaos.BuilderExampleApp</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>Test</string>
+	<string>BuilderExampleApp</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -27,19 +27,19 @@
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>9Q1004a</string>
+	<string>9C40b</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>17E189</string>
+	<string>17C76</string>
 	<key>DTSDKName</key>
 	<string>macosx10.13</string>
 	<key>DTXcode</key>
-	<string>0940</string>
+	<string>0920</string>
 	<key>DTXcodeBuild</key>
-	<string>9Q1004a</string>
+	<string>9C40b</string>
 	<key>LSMinimumSystemVersion</key>
-	<string>10.13</string>
+	<string>10.12</string>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2018 Elegant Chaos. All rights reserved.</string>
 	<key>NSMainStoryboardFile</key>
