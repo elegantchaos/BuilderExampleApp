@@ -7,6 +7,9 @@
     "Resources/" : {
 
     },
+    "MacOS" : {
+      
+    },
     "Info.plist" : {
       "extra-key" : "extra-value",
       "user" : "$USER"
