@@ -13,7 +13,7 @@ let package = Package(
     dependencies: [
       // Builder & associated tools
       .package(url: "https://github.com/elegantchaos/Builder.git", from: "1.0.3"),
-      .package(url: "https://github.com/elegantchaos/BuilderBundler.git", from: "1.0.1"),
+      .package(url: "https://github.com/elegantchaos/BuilderBundler.git", from: "1.0.2"),
       .package(url: "https://github.com/elegantchaos/BuilderConfiguration.git", from: "1.1.2"),
     ],
     targets: [

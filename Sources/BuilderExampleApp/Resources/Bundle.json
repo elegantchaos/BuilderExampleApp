@@ -5,10 +5,8 @@
       "include-standard" : true
     },
     "Resources/" : {
-
     },
     "MacOS" : {
-      
     },
     "Info.plist" : {
       "extra-key" : "extra-value",
